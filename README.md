@@ -1,1 +1,2 @@
-# 3311Project
+# HomeForecast Canada
+The "HomeForecast Canada" is a powerful data analysis application that helps users find the most affordable region to buy a house in Canada. By leveraging the New Housing Price Index (NHPI) data from Statistics Canada, this intuitive tool allows users to compare NHPI trends across different regions and time periods. With its user-friendly interface and advanced features, the application provides valuable insights and forecasting capabilities to support informed decision-making in the real estate market.
