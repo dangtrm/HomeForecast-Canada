@@ -1,0 +1,14 @@
+CREATE schema database_3311;
+USE database_3311;
+CREATE TABLE NHPI (
+    REF_DATE date NOT NULL,
+    GEO VARCHAR(255) NOT NULL,
+    VALUE_ float(1) DEFAULT NULL
+);
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/data.csv' 
+INTO TABLE NHPI 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+select * from nhpi limit 0, 100000;
